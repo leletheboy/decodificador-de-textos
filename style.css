@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.fundo img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 40px;
+}
+
+header img{
+    position: absolute;
+    left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+header h2{
+    color: white;
+}
+
+.quadros{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+main textarea.input{
+    font-size: 30px;
+    color: white;
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    background-color: rgba(116, 114, 252, 0.2);
+    border: none;
+    border-radius: 35px;
+    box-shadow: -50px -50px 30px rgba(0, 0, 0, 0.2);
+    outline: none;
+    resize: none;
+}
+
+main textarea.input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+}
+
+main textarea.input:focus{
+    border: 1px solid #7472FC;
+}
+
+.requisitos h5{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 20px #A8A6FF;
+}
+
+main textarea.output{
+    font-size: 30px;
+    color: #fff;
+    width: 450px;
+    height: 600px;
+    padding: 50px;
+    background-color: rgba(116, 114, 252, 0.2);
+    border-radius: 35px;
+    box-shadow: 50px 50px 30px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+main textarea.output::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+}
+
+.btn{
+    margin: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn button{
+    width: 200px;
+    height: 50px;
+    background-color: #A272FC;
+    border-radius: 16px;
+    border: none;
+}
+
+.btn button:hover{
+    background-color: #8FB0FF;
+}
+
+.apresentacao__direita {
+    position: relative;
+}
+
+.apresentacao__direita button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: #A272FC;
+    border-radius: 16px;
+    border: none;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.apresentacao__direita button:hover{
+    background-color: #8FB0FF;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    color: #7472FC;
+    position: absolute;
+    bottom: 0;
+}
